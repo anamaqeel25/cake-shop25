@@ -35,11 +35,11 @@
 
         <div class="nav-container">
             <ul class="nav-text">
-                <li class="navlist itemss">Home</li>
-                <li class="navlist itemss">Cakes</li>
-                <li class="navlist itemss">About</li>
-                <li class="navlist itemss">Blog</li>
-                <li class="navlist itemss">Contact</li>
+                <li class="navlist">Home</li>
+                <li class="navlist">Cakes</li>
+                <li class="navlist">About</li>
+                <li class="navlist">Blog</li>
+                <li class="navlist">Contact</li>
             </ul>
         </div>
     </section>
@@ -53,53 +53,53 @@
         </div>
     </section>
 
-    <section class="advertisement">
-        <div class="adv-heading">
+    <section class="food-theme-section">
+        <div class="food-heading">
         <p>This is Schilers. Awesome Food Theme. Purchase it and eat. Burgers. </p>
         <hr width="140px" color="goldenrod">
         </div>
-        <div class="adv-display">
+        <div class="food-container">
             <div>
                     <h2>This is Schilers. Awesome Food Theme.
                     <br>
                     Purchase it and eat Burgers.
                     </h2>
-                    <p id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute dolor in reprehen derit in voluptate velit esse cillum.
+                    <p class="abt-food">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute dolor in reprehen derit in voluptate velit esse cillum.
                         <br><br>
                         Consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute dolor in reprehen derit in voluptate velit esse cillum.
                     </p>
             </div>
             <div>
-                <img src="images/adv-cake.jpg" alt="cake" class="adv-cake-img">
+                <img src="images/food-cake-img.jpg" alt="cake">
             </div>
         </div>
     </section>
 
-    <section class="flex-slider">
-        <div class="cakes-slider">
-            <div class="angle-prv-next">
+    <section class="cake-section">
+        <div class="cakes-container">
+            <div class="move-btn">
                 <i class="fa-solid fa-angle-left"></i>
             </div>
             <div>
-                <img src="images/delightful-lemon.jpg" alt="cake1" class="cake-img-hover">
-                <button value="add-cart" id="cart">Add to cart</button>
+                <img src="images/cake1-img.jpg" alt="cake1" class="cake-img">
+                <button value="add-cart" class="cart-btn">Add to cart</button>
                 <p>delightful lemon</p>
                 <p class="cake-cost">$90.00</p>
             </div>
             <div>            
-                <img src="images/sweet-surprise.jpg" alt="cake2" class="cake-img-hover">
-                <button value="add-cart" id="cart">Add to cart</button>
+                <img src="images/cake2-img.jpg" alt="cake2" class="cake-img">
+                <button value="add-cart" class="cart-btn">Add to cart</button>
                 <p>sweet surprise</p>
                 <p class="cake-cost">$90.00</p>
 
             </div>
             <div>
-                <img src="images/cashmere-tank.jpg" alt="cake3" class="cake-img-hover">
-                <button value="add-cart" id="cart">Add to cart</button>
+                <img src="images/cake3-img.jpg" alt="cake3" class="cake-img">
+                <button value="add-cart" class="cart-btn">Add to cart</button>
                 <p>cashmere tank + bag</p>
                 <p class="cake-cost">$90.00</p>
             </div>  
-            <div class="angle-prv-next">
+            <div class="move-btn">
                 <i class="fa-solid fa-angle-right"></i>
             </div>
         </div>
@@ -107,25 +107,22 @@
 
     <section class="video-section">
         <div class="video-container">
-            <img src="images/video-bg.jpg" alt="image" class="vid-img">
-            <div class="videoplay">
-                <button value="video-btn" id="video-btn">                    
-                        <a href="https://www.youtube.com/watch?v=up68UAfH0d0" target="_blank" class="play-btn">
-                            <i class="fa-solid fa-play"></i>
-                        </a>
-                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/up68UAfH0d0?si=9CKJpRQiZVP1QSHR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-                </button>              
-            </div>
+            <img src="images/video-background-img.jpg" alt="image" class="vid-bg-img">
+            <button value="video-btn" class="play-btn">                    
+                 <a href="https://www.youtube.com/watch?v=up68UAfH0d0" target="_blank" class="play-icon">
+                    <i class="fa-solid fa-play"></i>
+                </a>
+           </button>              
         </div>
     </section>
         
-    <section class="feedback-ratings">
+    <section class="feedback-section">
         <div class="feedback-container">
             <h2 id="feedback-heading">food lover's say</h2>
         </div>
         <div class="review-container">
-            <div class="items item1">
-                    <ul class="ratings">
+            <div class="review review1">
+                    <ul class="ratings-icon">
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
@@ -134,12 +131,12 @@
                     </ul>
                     <h3>"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.</h3>
                     <div class="customer-profile">
-                        <img src="images/wilma-mundya.jpg" alt="customer1">
+                        <img src="images/customer1-img.jpg" alt="customer1">
                         <h4>Wilma Mumduya</h4>
                     </div>
                 </div>
-            <div class="items item2">
-                <ul class="ratings">
+            <div class="review review2">
+                <ul class="ratings-icon">
                     <li><i class="fa-solid fa-star"></i></li>
                     <li><i class="fa-solid fa-star"></i></li>
                     <li><i class="fa-solid fa-star"></i></li>
@@ -148,12 +145,12 @@
                 </ul>
                 <h3>"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.</h3>
                 <div  class="customer-profile">
-                    <img src="images/wilma-mundya2.jpg" alt="customer2">
+                    <img src="images/customer2-img.jpg" alt="customer2">
                     <h4>Wilma Mumduya</h4>
                 </div>
             </div>
-            <div class="items item3">
-                <ul class="ratings">
+            <div class="review review3">
+                <ul class="ratings-icon">
                     <li><i class="fa-solid fa-star"></i></li>
                     <li><i class="fa-solid fa-star"></i></li>
                     <li><i class="fa-solid fa-star"></i></li>
@@ -162,44 +159,44 @@
                 </ul>
                 <h3>"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.</h3>
                 <div class="customer-profile">
-                    <img src="images/wilma-mundya3.jpg" alt="customer3">
+                    <img src="images/customer3-img.jpg" alt="customer3">
                     <h4>Wilma Mumduya</h4>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="blog-section">
-        <div class="blog-container">
+    <section class="blogs-section">
+        <div class="blogs-header">
             <div>
-                <p id="blog">Our Blogs</p>
+                <p class="blog">Our Blogs</p>
             </div>
             <div>
                 <button name="blogbtn" id="blog-btn">more blog</button>
             </div>
         </div>
-        <div class="about-blog">
-            <div class="blog-img-text">
+        <div class="abt-blog">
+            <div class="blog-container">
                 <div class="blog-imgs">
                     <img src="images/blog-img1.jpg" alt="blog-img1" id="blogimg">
                 </div>
-                <div class="blog-text">
-                    <h3 id="blog-heading">Tomato, black olive, feta & anchovy tart ulla mco laboris</h3>
+                <div class="blog-paragraph">
+                    <h3 class="blog-heading">Tomato, black olive, feta & anchovy tart ulla mco laboris</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip</p>
-                    <div class="learnlink">
+                    <div class="learn-more">
                         <p id="learn-more">learn more</p>
                         <hr width="85px" align="left" color="goldenrod">
                     </div>
                 </div>
             </div>
-            <div class="blog-img-text">
+            <div class="blog-container">
                 <div class="blog-imgs">
                     <img src="images/blog-img2.jpg" alt="blog-img2" id="blogimg">
                 </div>
-                <div class="blog-text">
-                    <h3 id="blog-heading">Tomato, black olive, feta & anchovy tart ulla mco laboris</h3>
+                <div class="blog-paragraph">
+                    <h3 class="blog-heading">Tomato, black olive, feta & anchovy tart ulla mco laboris</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip.</p>
-                    <div class="learnlink">
+                    <div class="learn-more">
                         <p id="learn-more">learn more</p>
                         <hr width="85px" align="left" color="goldenrod">
                     </div>
@@ -208,10 +205,10 @@
         </div>
     </section>
 
-    <section class="about-follow">
-        <div class="follow-txt-btn">
+    <section class="pastry-section">
+        <div class="pastry-container">
             <p>Follow us on Instagram</p>
-            <button name="cakeshop-insta" id="cakeshop-btn"><i class="fa-brands fa-instagram"></i>Cakeshop</button>
+            <button class="cakeshop-btn"><i class="fa-brands fa-instagram"></i>Cakeshop</button>
         </div>
         <div class="cupcakes">
             <ul class="cupcakes-container">
@@ -223,69 +220,68 @@
         </div>
     </section>
 
-    <section class="contact-address">
-        <div class="bottom-header">
+    <section class="footer-section">
+        <div class="footer-container">
             <div>
-                <img src="images/cakeshop-logo" alt="cakeshop">
+                <img src="images/header-logo" alt="cakeshop">
             </div>
-            <div class="bottom-header-text">
-                <ul class="btm-nav-ctrl">
-                    <li class="bottom-list txthover">Home</li>
-                    <li class="bottom-list txthover">Cakes</li>
-                    <li class="bottom-list txthover">About</li>
-                    <li class="bottom-list txthover">Blog</li>
-                    <li class="bottom-list txthover">Contact</li>
+            <div>
+                <ul class="footer-nav-ctrl">
+                    <li class="footer-list navlist">Home</li>
+                    <li class="footer-list navlist">Cakes</li>
+                    <li class="footer-list navlist">About</li>
+                    <li class="footer-list navlist">Blog</li>
+                    <li class="footer-list navlist">Contact</li>
                 </ul>
             </div>
         </div>
         <hr>
-        <div class="message">
-            <div class="small-abt">
-                <div class="display-abt">
-                    <p id="loc-cont-data">Consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+        <div class="info-section">
+            <div class="info-container">
+                <div class="info-display">
+                    <p class="info-data">Consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
                 </div>
-                <div class="button-icon">
-                    <button name="insta" id="btn-logo">
-                            <i class="fa-brands fa-instagram"></i>Instagram
+                <div class="footer-btns">
+                    <button name="insta" class="btn-logo">
+                            <i class="fa-brands fa-instagram"></i> Instagram
                     </button>
-                    <button name="fb" id="btn-logo">
-                            <i class="fa-brands fa-facebook"></i>Facebook
+                    <button name="fb" class="btn-logo">
+                            <i class="fa-brands fa-facebook"></i> Facebook
                     </button>
-                    <button name="twitt" id="btn-logo">
-                            <i class="fa-brands fa-twitter"></i>Twitter
+                    <button name="twitt" class="btn-logo">
+                            <i class="fa-brands fa-twitter"></i> Twitter
                     </button>
                 </div>
             </div>
             <div class="location">
-                <div class="bottom-logo">
+                <div class="info-icons">
                     <i class="fa-solid fa-paper-plane"></i>
                 </div>
                 <div>
-                    <p id="loc-cont-head">Location</p>
+                    <p class="info-head">Location</p>
                 </div>
                 <div>
-                    <p id="loc-cont-data">4736 Poe Lane, HOT SPRINGS, Montana-59845</p>
+                    <p class="info-data">4736 Poe Lane, HOT SPRINGS, Montana-59845</p>
                 </div>
             </div>
             <div class="contact">
-                <div class="bottom-logo">
+                <div class="info-icons">
                     <i class="fa-solid fa-phone"></i>
                 </div>
                 <div>
-                    <p id="loc-cont-head">Contact</p>
+                    <p class="info-head">Contact</p>
                 </div>
                 <div>
-                    <p id="loc-cont-data">913-473-7000<br>contact@cakeshop.com</p>
+                    <p class="info-data">913-473-7000<br>contact@cakeshop.com</p>
                 </div>
             </div>
         </div>
         <hr>
-        <footer class="abt-footer">
-            <p class="foot">
-                Copyright ©2024 All rights reserved | This template is made with <i class="fa-solid fa-heart" id="heart"></i> by Shaikh Samiya
+        <footer class="owner-container">
+            <p class="abt-owner">
+                Copyright ©2024 All rights reserved | This template is made with <i class="fa-solid fa-heart heart-icon"></i> by Collarib
             </p>
         </footer>
     </section>
-    <script src="script.js"></script>
 </body>
 </html>

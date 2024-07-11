@@ -20,9 +20,6 @@ body{
 }
 .icons:hover{
     color:goldenrod;
-    /* transform:rotate(0deg);
-    rotate:0deg; */
-    
 }
 #call-btn{
     color:goldenrod;
@@ -82,18 +79,7 @@ body{
     color: goldenrod;
     border:1px solid goldenrod;
 }
-#toggletheme{
-    position: absolute;
-    font-size: 20px;
-    padding: 10px 30px;
-    background-color: black;
-    color: white;
-    border:1px solid white;
-    top: 280px;
-    right: 20px;
-    cursor: pointer;
-}
-.adv-heading{
+.food-heading{
     font-family: "Poiret One", cursive;
     font-size: 45px;
     font-weight: 100;
@@ -101,7 +87,7 @@ body{
     padding:50px 450px;
     text-align: center;
 }
-.adv-display{
+.food-container{
     display: flex;
     padding: 5px 150px;
     gap: 30px;
@@ -112,17 +98,17 @@ h2{
     color: goldenrod;
     font-weight: 100;
 }
-.img-width{
+/* .img-width{
     width: 100%;
-}
-#caption{
+} */
+.abt-food{
     font-family: "Jost", sans-serif;
     font-size: 17px;
     line-height: 1.5;
     font-weight: 200;
 
 }
-.cakes-slider{
+.cakes-container{
     display: flex;
     margin: 100px 80px;
     justify-content: space-between;
@@ -131,12 +117,12 @@ h2{
     text-transform: capitalize;
     position: relative;
     :hover{
-        #cart{
+        .cart-btn{
             visibility: visible;
         }
     }
 }
-.cake-img-hover{
+.cake-img{
     width:55vh;
 }
 .cake-cost{
@@ -144,7 +130,7 @@ h2{
     font-family: "Jost", sans-serif;
     color: goldenrod;
 }
-#cart{
+.cart-btn{
     visibility: hidden;    
     font-family: "Jost", sans-serif;
     position: absolute;
@@ -155,7 +141,7 @@ h2{
     padding: 15px 143px;
     background-color: goldenrod;
 }
-.angle-prv-next{
+.move-btn{
     color:rgba(229,191,74,0.5);
     position: relative;
     top:150px;
@@ -169,37 +155,28 @@ h2{
 .video-container{
     position: relative;
     padding: 0px 100px;
-    /* margin: 100px 80px; */
 }
-.vid-img{
+.vid-bg-img{
     width:100%;
     height: 100%;
 }
-.videoplay{
+.play-btn{
     position: absolute;
-    background-color:whitesmoke;
-    border-radius: 50%;
-    padding:40px;
-    top: 200px;
-    left: 600px;
-    /* opacity:0.1; */
-}
-#video-btn{
     border-radius: 50%;
     background-color: goldenrod;
-    border: none;
+    border:  goldenrod;
     padding: 30px;
-    /* opacity: 0.9; */
+    top: 230px;
+    left: 600px;
 }
-#video-btn:hover{
+.play-btn:hover{
     background-color: white;
 }
-.play-btn{
+.play-icon{
     color: black;
-    font-size: 35px;
+    font-size: 25px;
 }
 .feedback-container{
-    /* border: 3px solid white; */
     margin-top: 100px;
     padding: 10px;
 }
@@ -212,20 +189,19 @@ h2{
     font-weight: 100px;
 }
 .review-container{
-    /* border:2px solid blue; */
     display: flex;
     margin:0px 100px;
 }
-.items{
+.review{
     border:1px solid white;
     border-left: none;
     border-right: none;
     padding: 40px 0px;
 }
-.item2{
+.review2{
     border: 1px solid white;
 }
-.ratings{
+.ratings-icon{
     display: flex;
     list-style: none;
     color: goldenrod;
@@ -240,16 +216,14 @@ h3{
     display: flex;
     padding: 10px 70px;
     gap: 10px;
-    /* justify-content: space-between; */
 }
-.blog-container{
+.blogs-header{
     display: flex;
-    /* border: 2px solid white; */
     margin:100px 50px;
     padding: 1px 80px;
     justify-content: space-between;
 }
-#blog{
+.blog{
     font-size: 40px;
     font-family: "Poiret One", cursive;
     font-weight: 100;
@@ -267,24 +241,28 @@ h3{
     background-color: black;
     border: 1px solid goldenrod;
 }
-.about-blog{
+.abt-blog{
     display: grid;
     grid-template-columns: auto auto;
-    /* border:3px solid blue; */
     justify-content: space-between;
     gap: 20px;
 }
 #blogimg{
     height: 60vh;
     width: 50vh;
-    /* border: 3px solid yellow; */
 }
-.blog-img-text{
+.blog-container{
     display: flex;
-    /* border:2px solid red; */
     height: 60vh;
 }
-#blog-heading{
+.blog-paragraph{
+    padding: 0px 20px;
+    font-size: 17px;
+    font-family: "Jost", sans-serif;
+    font-weight: 200;   
+    border:1px solid white;
+}
+.blog-heading{
     font-size: 25px;
     font-family: "Poiret One", cursive;
     font-weight: 900;
@@ -292,14 +270,7 @@ h3{
     padding-left: 10px;
 
 }
-.blog-text{
-    padding: 0px 20px;
-    font-size: 17px;
-    font-family: "Jost", sans-serif;
-    font-weight: 200;   
-    border:1px solid white;
-}
-.learnlink{
+.learn-more{
     font-size: 15px;
     color: goldenrod;
     text-transform: uppercase;
@@ -307,21 +278,18 @@ h3{
 .learnlink:hover{
     font-size: 16px;
 }
-.about-follow{
-    /* border:2px solid aqua; */
-    /* margin:100px 0px */
+.pastry-section{
     margin-top: 100px;
     margin-bottom: 100px;
     align-content: center;
 }
-.follow-txt-btn{
+.pastry-container{
     text-align: center;
     font-size:40px;
     font-family: "Poiret One", cursive;
     padding-bottom: 50px;
-    /* border:2px solid white; */
 }
-#cakeshop-btn{
+.cakeshop-btn{
     font-size: 15px;
     padding: 20px 40px;
     background-color: black;
@@ -329,33 +297,28 @@ h3{
     border: 1px solid goldenrod;
 }
 .cupcakes{
-    /* border: 2px solid red; */
     margin:10px 0px;
 }
 .cupcakes-container{
     display: flex;
-    /* border: 2px solid yellow;  */
     gap:30px;
     padding: 10px 100px;
     list-style: none;
     justify-content: space-between;
 }
 .cup-imgs{
-    /* border:1px solid blue; */
     width:100%;
 }
-.contact-address{
+.footer-section{
     padding:50px 100px;
     margin: 10px;
-    /* border: 2px solid blueviolet; */
 } 
-.bottom-header{
+.footer-container{
     display: flex;
     padding:10px 0px;
     justify-content: space-between;
-    /* border:1px solid red; */
 }
-.btm-nav-ctrl{
+.footer-nav-ctrl{
     display: flex;
     font-family: "Jost", sans-serif;
     font-size: 20px;
@@ -364,29 +327,26 @@ h3{
     margin:auto;
     text-transform: uppercase;
 }
-.bottom-list{
+.footer-list{
     margin: 10px 15px;
 }
-.message{
+.info-section{
     display: flex;
-    /* border: 2px solid red; */
     gap: 100px;
     padding: 50px 0px;
 }
-.small-abt{
-    /* border: 1px solid aqua; */
+.info-container{
     padding: 0px 50px 50px 0px;
 }
-.display-abt{
-    /* border:1px solid yellow; */
+.info-display{
     margin-bottom: 50px;
     line-height: 2;
 }
-.botton-icon{
+.footer-btns{
     font-size: 10px;
     text-transform: none;
 }
-#btn-logo{
+.btn-logo{
     background-color: black;
     border: 1px solid white;
     color: white;
@@ -394,30 +354,29 @@ h3{
     margin: 0px 10px 0px 0px;
     font-size: 15px;
 }
-#btn-logo:hover{
+.btn-logo:hover{
     color: goldenrod;
     border: 1px solid goldenrod;
 }
-#loc-cont-head{
+.info-head{
     font-size: 25px;
     font-family: "Poiret One", cursive;
     color: goldenrod;
 }
-.bottom-logo{
+.info-icons{
     font-size: 25px;
 }
-#loc-cont-data{
+#info-data{
     font-size:15px;
     font-family: "Jost", sans-serif;
 }
-.abt-footer{
+.owner-container{
     text-align: center;
-    margin-top: 50px;
 }
-.foot{
+.abt-owner{
     font-family: "Jost", sans-serif;   
 }
-#heart{
+.heart-icon{
     color: goldenrod;
 }
  
