@@ -1,0 +1,423 @@
+body{
+    background-color: black;
+    color: white;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.logo-container{
+    display:flex;
+    justify-content: space-between;
+    margin:30px;
+    width:100px;
+}
+.icons{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+.icons:hover{
+    color:goldenrod;
+    /* transform:rotate(0deg);
+    rotate:0deg; */
+    
+}
+#call-btn{
+    color:goldenrod;
+    border:2px solid goldenrod;
+    background-color: black;
+    font-size: 15px;
+    padding:15px 30px;
+    margin-top: 10px;
+}
+#call-btn:hover{
+    background-color: goldenrod;
+    color: white;
+}
+.nav-text{
+    display: flex;
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content:space-between;
+    padding: 35px;
+    list-style-type: none;
+    margin: 0px 400px;
+    text-transform: uppercase;
+}
+.navlist:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+.bg-img-container{
+    background-image:url("images/background-img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+ .bg-header{
+    font-family: "Poiret One", cursive;
+    font-size:80px;
+    padding: 100px;
+    text-transform: capitalize;
+    top:250px; 
+}
+#ordernow-btn{
+    position: absolute;
+    background-color: goldenrod;
+    color:black;
+    font-size: 15px;
+    padding:15px 50px;
+    text-transform: uppercase;
+    height: 70px;
+    top:650px;
+    left:110px;
+}
+#ordernow-btn:hover{
+    background-color:black;
+    color: goldenrod;
+    border:1px solid goldenrod;
+}
+#toggletheme{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border:1px solid white;
+    top: 280px;
+    right: 20px;
+    cursor: pointer;
+}
+.adv-heading{
+    font-family: "Poiret One", cursive;
+    font-size: 45px;
+    font-weight: 100;
+    line-height: 1.3;
+    padding:50px 450px;
+    text-align: center;
+}
+.adv-display{
+    display: flex;
+    padding: 5px 150px;
+    gap: 30px;
+}
+h2{
+    font-family: "Poiret One", cursive;
+    font-size: 25px;
+    color: goldenrod;
+    font-weight: 100;
+}
+.img-width{
+    width: 100%;
+}
+#caption{
+    font-family: "Jost", sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 200;
+
+}
+.cakes-slider{
+    display: flex;
+    margin: 100px 80px;
+    justify-content: space-between;
+    font-family: "Poiret One", cursive;
+    font-size: 30px;
+    text-transform: capitalize;
+    position: relative;
+    :hover{
+        #cart{
+            visibility: visible;
+        }
+    }
+}
+.cake-img-hover{
+    width:55vh;
+}
+.cake-cost{
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    color: goldenrod;
+}
+#cart{
+    visibility: hidden;    
+    font-family: "Jost", sans-serif;
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    top:590px;
+    margin: -355px;
+    padding: 15px 143px;
+    background-color: goldenrod;
+}
+.angle-prv-next{
+    color:rgba(229,191,74,0.5);
+    position: relative;
+    top:150px;
+}
+.angle-prv-next:hover{
+    color:goldenrod;
+}
+.video-section{
+    width: 100%;
+}
+.video-container{
+    position: relative;
+    padding: 0px 100px;
+    /* margin: 100px 80px; */
+}
+.vid-img{
+    width:100%;
+    height: 100%;
+}
+.videoplay{
+    position: absolute;
+    background-color:whitesmoke;
+    border-radius: 50%;
+    padding:40px;
+    top: 200px;
+    left: 600px;
+    /* opacity:0.1; */
+}
+#video-btn{
+    border-radius: 50%;
+    background-color: goldenrod;
+    border: none;
+    padding: 30px;
+    /* opacity: 0.9; */
+}
+#video-btn:hover{
+    background-color: white;
+}
+.play-btn{
+    color: black;
+    font-size: 35px;
+}
+.feedback-container{
+    /* border: 3px solid white; */
+    margin-top: 100px;
+    padding: 10px;
+}
+#feedback-heading{
+    color: white;
+    font-family: "Poiret One", cursive;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 100px;
+}
+.review-container{
+    /* border:2px solid blue; */
+    display: flex;
+    margin:0px 100px;
+}
+.items{
+    border:1px solid white;
+    border-left: none;
+    border-right: none;
+    padding: 40px 0px;
+}
+.item2{
+    border: 1px solid white;
+}
+.ratings{
+    display: flex;
+    list-style: none;
+    color: goldenrod;
+}
+h3{
+    padding: 10px 55px;
+    font-family: "Jost", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.customer-profile{
+    display: flex;
+    padding: 10px 70px;
+    gap: 10px;
+    /* justify-content: space-between; */
+}
+.blog-container{
+    display: flex;
+    /* border: 2px solid white; */
+    margin:100px 50px;
+    padding: 1px 80px;
+    justify-content: space-between;
+}
+#blog{
+    font-size: 40px;
+    font-family: "Poiret One", cursive;
+    font-weight: 100;
+}
+#blog-btn{
+    font-size: 15px;
+    background-color: goldenrod;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 50px;
+    padding: 25px 50px;
+}
+#blog-btn:hover{
+    color:goldenrod;
+    background-color: black;
+    border: 1px solid goldenrod;
+}
+.about-blog{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* border:3px solid blue; */
+    justify-content: space-between;
+    gap: 20px;
+}
+#blogimg{
+    height: 60vh;
+    width: 50vh;
+    /* border: 3px solid yellow; */
+}
+.blog-img-text{
+    display: flex;
+    /* border:2px solid red; */
+    height: 60vh;
+}
+#blog-heading{
+    font-size: 25px;
+    font-family: "Poiret One", cursive;
+    font-weight: 900;
+    color: goldenrod;
+    padding-left: 10px;
+
+}
+.blog-text{
+    padding: 0px 20px;
+    font-size: 17px;
+    font-family: "Jost", sans-serif;
+    font-weight: 200;   
+    border:1px solid white;
+}
+.learnlink{
+    font-size: 15px;
+    color: goldenrod;
+    text-transform: uppercase;
+}
+.learnlink:hover{
+    font-size: 16px;
+}
+.about-follow{
+    /* border:2px solid aqua; */
+    /* margin:100px 0px */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-content: center;
+}
+.follow-txt-btn{
+    text-align: center;
+    font-size:40px;
+    font-family: "Poiret One", cursive;
+    padding-bottom: 50px;
+    /* border:2px solid white; */
+}
+#cakeshop-btn{
+    font-size: 15px;
+    padding: 20px 40px;
+    background-color: black;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+}
+.cupcakes{
+    /* border: 2px solid red; */
+    margin:10px 0px;
+}
+.cupcakes-container{
+    display: flex;
+    /* border: 2px solid yellow;  */
+    gap:30px;
+    padding: 10px 100px;
+    list-style: none;
+    justify-content: space-between;
+}
+.cup-imgs{
+    /* border:1px solid blue; */
+    width:100%;
+}
+.contact-address{
+    padding:50px 100px;
+    margin: 10px;
+    /* border: 2px solid blueviolet; */
+} 
+.bottom-header{
+    display: flex;
+    padding:10px 0px;
+    justify-content: space-between;
+    /* border:1px solid red; */
+}
+.btm-nav-ctrl{
+    display: flex;
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    list-style-type: none;
+    margin:auto;
+    text-transform: uppercase;
+}
+.bottom-list{
+    margin: 10px 15px;
+}
+.message{
+    display: flex;
+    /* border: 2px solid red; */
+    gap: 100px;
+    padding: 50px 0px;
+}
+.small-abt{
+    /* border: 1px solid aqua; */
+    padding: 0px 50px 50px 0px;
+}
+.display-abt{
+    /* border:1px solid yellow; */
+    margin-bottom: 50px;
+    line-height: 2;
+}
+.botton-icon{
+    font-size: 10px;
+    text-transform: none;
+}
+#btn-logo{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 40px;
+    margin: 0px 10px 0px 0px;
+    font-size: 15px;
+}
+#btn-logo:hover{
+    color: goldenrod;
+    border: 1px solid goldenrod;
+}
+#loc-cont-head{
+    font-size: 25px;
+    font-family: "Poiret One", cursive;
+    color: goldenrod;
+}
+.bottom-logo{
+    font-size: 25px;
+}
+#loc-cont-data{
+    font-size:15px;
+    font-family: "Jost", sans-serif;
+}
+.abt-footer{
+    text-align: center;
+    margin-top: 50px;
+}
+.foot{
+    font-family: "Jost", sans-serif;   
+}
+#heart{
+    color: goldenrod;
+}
+ 
